@@ -1,0 +1,72 @@
+
+a {
+    cursor: pointer;
+  }
+        *:root {
+          --ch-eggshell: #FBF8EF;
+        }
+        .ch-scroll-page {
+          background-color: var(--ch-yellow-500);
+        }
+        .ch-footer-links li, .ch-copyright {
+          color: var(--ch-gray-950);
+        }
+        .ch-theme[data-theme="dark"] {
+          --ch-text-primary: var(--ch-gray-950);
+          --ch-text-light: var(--ch-gray-600);
+          --ch-background: var(--ch-eggshell);
+          --ch-foreground: var(--ch-gray-950);
+        }
+        .ch-theme[data-theme="dark"] .ch-btn--yellow, 
+        .ch-theme[data-theme="dark"] #ch-get-clubhouse-body-btn--mobile {
+          background-color: var(--ch-white);
+          color:var(--ch-gray-950);
+        }
+        .ch-theme[data-theme="dark"] .ch-btn--yellow:hover,
+        .ch-theme[data-theme="dark"] #ch-get-clubhouse-body-btn--mobile:hover {
+          background-color: var(--ch-gray-950);
+          color: var(--ch-white);
+        }
+        .ch-theme[data-theme="light"] .ch-btn--yellow, 
+        .ch-theme[data-theme="light"] #ch-get-clubhouse-body-btn--mobile {
+          background-color: var(--ch-gray-950);
+          color: var(--ch-white);
+        }
+        .ch-theme[data-theme="light"] .ch-btn--yellow:hover,
+        .ch-theme[data-theme="light"] #ch-get-clubhouse-body-btn--mobile:hover {
+          background-color: var(--ch-white);
+          color: var(--ch-gray-950);
+        }
+        .ch-nav-links li, 
+        button,
+        .ch-btn--yellow {
+          text-transform: lowercase;
+        }
+        .ch-scroll-cta {
+          background-color: var(--ch-yellow-500);
+        }
+        .ch-scroll-cta--text {
+          color: var(--ch-gray-950);
+          font-weight: 700;
+        }
+        .ch-footer-links li, .ch-copyright {
+          text-transform: unset;
+        }
+        .ch-social-icon:hover {
+          filter: brightness(0) saturate(100%) invert(42%) sepia(100%) saturate(392%) hue-rotate(341deg) brightness(98%) contrast(103%);
+        }
+        .ch-action-text-container {
+          font-size: 72px;
+        }
+        .ch-footer-links li {
+          font-weight: 800;
+        }
+        .ch-copyright {
+          font-size: 12px;
+        }
+        @media only screen and (max-device-width: 549px) {
+          .ch-action-text-container {
+            font-size: 42px;
+          }
+        }
+      
